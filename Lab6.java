@@ -98,8 +98,9 @@ public class Lab6 {
 			System.out.println("Have you completed the final?");
 			String next = input.next();
 			
-			if (next == "yes" || next == "Yes") {
+			if (next.equals("yes") || next.equals("Yes")) {
 				didFinal = true;
+				System.out.println("How much did you get on the final?");
 				score = input.nextInt();
 				FinalExam.setMyScore(score);
 				currentGrade += FinalExam.getMyScore();
