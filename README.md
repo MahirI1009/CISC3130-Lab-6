@@ -1,4 +1,4 @@
-# CISC3130-Lab-6
+# Course-Grade-Calculator
 This project is designed specifically for the task of calculating my current grade for CISC3130. 
 I created an object called Task, which is the Task.java class. It's a one-size-fits-all for all the types of task required in this course such as Practice Problems, Labs, Midterms and the Final. There's a field for the name of the task, the percent of the final grade that the task is worth, the amount of points that's possible to get on it, the score that the user got on that particular assignment if the assignment was completed, and if it wasn't then a boolean variable labeled completed will remain false. There's a constructor which takes the name of the task, the possible points and percentage of the grade as arguments. There's a setter method which sets the myScore field to the user's score on particular assignment and sets completed to true. There's two getter methods, one which returns the possible points that can be gotten from completing the task and another that returns the user's score.
 There's another file in the project titled GradeCalculator.java. 
